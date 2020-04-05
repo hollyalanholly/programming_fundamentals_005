@@ -141,8 +141,9 @@ describe("Object.get", () => {
   });
 });
 
+//done
 describe("Object.has", () => {
-  test("returns true if the object has the give key", () => {
+  test("returns true if the object has the given key", () => {
     const obj1 = { name: "Sally", location: "Leeds" };
     expect(Object.has(obj1, "name")).toBe(true);
     expect(Object.has(obj1, "location")).toBe(true);
@@ -165,7 +166,7 @@ describe("Object.has", () => {
     expect(Object.has(obj1, "address")).toBe(true);
   });
 });
-
+//done
 describe("Object.sum", () => {
   test("returns the sum of all the values when all values are numbers", () => {
     const obj = {
@@ -204,6 +205,7 @@ describe("Object.sum", () => {
   });
 });
 
+//done
 describe("Object.invert", () => {
   test("returns a new object which is the inversion of the given object", () => {
     const original = {
@@ -239,6 +241,7 @@ describe("Object.invert", () => {
   });
 });
 
+//stuck
 describe("Object.addAll", () => {
   test("Creates a new object out of all the objects in an array", () => {
     const objects = [{ a: 1 }, { b: 3 }, { c: "foo" }];
