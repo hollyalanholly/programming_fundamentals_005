@@ -280,6 +280,7 @@ describe("Object.addAll", () => {
   });
 });
 
+//done
 describe("Object.find", () => {
   test("returns the found value if the object contains a value that matches the matcher function", () => {
     function matcherFunc(val) {
@@ -316,6 +317,7 @@ describe("Object.find", () => {
   });
 });
 
+//done
 describe("Object.every", () => {
   test("returns true if all values in the object pass the condition of the matcher the function", () => {
     function matcherFunc(val) {
